@@ -2,9 +2,6 @@ import React from 'react';
 
 const title = 'Grace Fellowship';
 const subtitle = 'of Mountain Home, Idaho';
-const abutton = () => (
-  <a className="w3-bar-item w3-button w3-hover-slategray w3-round-large" />
-);
 
 function App() {
   return (
