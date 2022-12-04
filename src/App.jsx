@@ -7,10 +7,10 @@ export const subtitle = 'of Mountain Home Idaho';
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
       <Header />
-    </div>
+    </>
   );
 }
 

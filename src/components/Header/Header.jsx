@@ -5,10 +5,15 @@ export default function Header(props) {
   return (
     <header
       className="w3-display-container w3-wide"
-      sx={{ maxWidth: 1500 }}
+      sx={{ maxWidth: 1200 }}
       id="home"
     >
-      <img src="./vite.svg" alt="image" width="1500px" height="800px" />
+      <img
+        src="./pexels-tammy-johnson-breininger-4438788.jpg"
+        alt="image"
+        width="600"
+        height="800"
+      />
       <div className="w3-display-middle w3-margin-top w3-center">
         <h1 className="w3-large w3-text-white">
           <span className="w3-padding w3-theme-d4 w3-opacity-min">
