@@ -14,7 +14,7 @@ export default function Navbar(props) {
 
         <div className="w3-right w3-hide-small">
           <Button>
-            <a href="#projects">Sermons</a>
+            <a href="#sermons">Sermons</a>
           </Button>
           <Button>
             <a href="#about">About</a>
