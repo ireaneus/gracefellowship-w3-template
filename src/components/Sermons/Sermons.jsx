@@ -40,7 +40,6 @@ export default function Sermons(props) {
               <img
                 src={bibleImgUrl[randomNum()]}
                 alt="{book.name}"
-                width="100%"
                 height="200px"
               />
             </div>

@@ -11,14 +11,13 @@ const churchImgUrl = [
 let randomNum = Math.floor(Math.random() * churchImgUrl.length);
 
 export default function Header(props) {
-  console.log(randomNum);
+  
   return (
     <header className="w3-display-container w3-wide" id="home">
       <img
         src={churchImgUrl[randomNum]}
-        alt="image"
-        width="100%"
-        height="500"
+        alt={churchImgUrl}
+        height='500px'
       />
       <div className="w3-display-middle w3-margin-top w3-center">
         <h1 className="w3-large w3-text-white">
