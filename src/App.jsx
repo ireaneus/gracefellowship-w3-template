@@ -1,4 +1,5 @@
 import React from 'react';
+import About from './components/About/About';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 import Sermons from './components/Sermons/Sermons';
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Header />
       <Sermons />
+      <About />
     </>
   );
 }
