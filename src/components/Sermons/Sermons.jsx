@@ -1,7 +1,21 @@
 import React from 'react';
 import { getBooks } from '../../sermons.js';
 
-const imageUrl = './images/purpleflowerbible.jpg';
+const bibleImgUrl = [
+  './images/purpleflowerbible.jpg',
+  './images/flowerbible.jpg',
+  './images/genesis.jpg',
+  './images/job.jpg',
+  './images/luke.jpg',
+  './images/oldtestament.jpg',
+  './images/pewbible.jpg',
+  './images/psalms.jpg',
+  './images/redpenbible.jpg',
+  './images/ringsbible.jpg',
+];
+function randomNum() {
+  return Math.floor(Math.random() * bibleImgUrl.length);
+}
 
 export default function Sermons(props) {
   let books = getBooks();
@@ -24,7 +38,7 @@ export default function Sermons(props) {
                 {book.name}
               </div>
               <img
-                src={imageUrl}
+                src={bibleImgUrl[randomNum()]}
                 alt="{book.name}"
                 width="100%"
                 height="200px"
