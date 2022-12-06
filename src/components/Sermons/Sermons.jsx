@@ -1,7 +1,7 @@
 import React from 'react';
 import { getBooks } from '../../sermons.js';
 
-const imageUrl = './pexels-tammy-johnson-breininger-4438788.jpg';
+const imageUrl = './images/purpleflowerbible.jpg';
 
 export default function Sermons(props) {
   let books = getBooks();
