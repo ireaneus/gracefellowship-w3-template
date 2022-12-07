@@ -2,7 +2,7 @@ import React from 'react';
 import { title, subtitle } from '../../App';
 
 const churchImgUrl = [
-  '/images/pexels-tabitha-mort-710905.jpg',
+  '/images/pexels-matt-hardy-2602543.jpg',
 ];
 
 function churchNum() {
