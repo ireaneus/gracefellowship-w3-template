@@ -21,16 +21,13 @@ export default function Sermons(props) {
   let books = getBooks();
 
   return (
-    <div
-      className="w3-content w3-padding"
-      sx={{ display: 'flex', justifyContent: 'center' }}
-    >
+    <div className="w3-padding">
       <div className="w3-container w3-padding-32" id="sermons">
         <h3 className="w3-border-bottom w3-border-light-grey w3-padding-16 w3-center">
           Sermon Books of the Bible and Topics
         </h3>
       </div>
-      <div className="w3-row-padding">
+      <div>
         {books.map((book) => (
           <div className="w3-col l3 w3-margin w3-card" key={book.id}>
             <div className="w3-display-container">
