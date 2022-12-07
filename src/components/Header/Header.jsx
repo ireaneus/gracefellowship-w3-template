@@ -10,7 +10,7 @@ const churchImgUrl = [
 
 let randomNum = Math.floor(Math.random() * churchImgUrl.length);
 
-export default function Header(props) {
+export default function Header() {
   
   return (
     <header className="w3-display-container w3-wide" id="home">

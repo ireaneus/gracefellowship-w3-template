@@ -17,7 +17,7 @@ function randomNum() {
   return Math.floor(Math.random() * bibleImgUrl.length);
 }
 
-export default function Sermons(props) {
+export default function Sermons() {
   let books = getBooks();
 
   return (
@@ -35,7 +35,7 @@ export default function Sermons(props) {
                 {book.name}
               </div>
               <img
-                src={bibleImgUrl[randomNum()]}
+                src={bibleImgUrl[randomNum()], console.log(bibleImgUrl)}
                 alt="{book.name}"
                 height="200px"
               />

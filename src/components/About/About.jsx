@@ -8,34 +8,29 @@ export default function About() {
           About
         </h3>
         <p>
-          Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales
-          pellentesque elementum.
+          Grace Fellowship of Mountain Home is a body of believers in Jesus
+          Christ who are joined together for the worship, service, prayer,
+          fellowship, discipleship, evangelism and for the observance of the
+          ordinances of baptism and the Lord's supper as set forth in the Bible.
         </p>
       </div>
 
       <div className="w3-row-padding w3-grayscale">
         <div className="w3-col l3 m6 w3-margin-bottom">
           <img
-            src="/images/team2.jpg"
+            src="/images/churchus.jpg"
             height={211}
             alt="Grace Fellowship of Mountain Home Idaho - Resurrected"
           />
           <h3>About our Church</h3>
           <p className="w3-opacity">
-            Grace Fellowship of Mountain Home is a body of believers in Jesus
-            Christ who are joined together for the worship, service, prayer,
-            fellowship, discipleship, evangelism and for the observance of the
-            ordinances of baptism and the Lord's supper as set forth in the
-            Bible.
-          </p>
-
-          <p>
             Come and enjoy the worship of God with us at Grace Fellowship and
             the warm fellowship of our members as we worship our Lord Jesus
             Christ in song, in prayer and in the Word of God.&nbsp;&nbsp;How you
             dress and what you give is of secondary importance to
             us.&nbsp;&nbsp;But there is one thing we do ask you to do.
           </p>
+
           <p className="w3-center">PLEASE BRING YOUR BIBLE!</p>
           <p className="scripture w3-center">
             Let us hold fast the confession of our hope without wavering, for He
@@ -52,7 +47,7 @@ export default function About() {
           </p>
         </div>
         <div className="w3-col l3 m6 w3-margin-bottom">
-          <img src="/w3images/team1.jpg" alt="Jane" />
+          <img src="" alt="Jane" />
           <h3>Jane Doe</h3>
           <p className="w3-opacity">Architect</p>
           <p>
@@ -66,7 +61,7 @@ export default function About() {
           </p>
         </div>
         <div className="w3-col l3 m6 w3-margin-bottom">
-          <img src="/w3images/team3.jpg" alt="Mike" />
+          <img src="" alt="Mike" />
           <h3>Mike Ross</h3>
           <p className="w3-opacity">Architect</p>
           <p>
