@@ -2,16 +2,16 @@ import React from 'react';
 import { getBooks } from '../../sermons.js';
 
 const bibleImgUrl = [
-  './images/purpleflowerbible.jpg',
-  './images/flowerbible.jpg',
-  './images/genesis.jpg',
-  './images/job.jpg',
-  './images/luke.jpg',
-  './images/oldtestament.jpg',
-  './images/pewbible.jpg',
-  './images/psalms.jpg',
-  './images/redpenbible.jpg',
-  './images/ringsbible.jpg',
+  '/images/purpleflowerbible.jpg',
+  '/images/flowerbible.jpg',
+  '/images/genesis.jpg',
+  '/images/job.jpg',
+  '/images/luke.jpg',
+  '/images/oldtestament.jpg',
+  '/images/pewbible.jpg',
+  '/images/psalms.jpg',
+  '/images/redpenbible.jpg',
+  '/images/ringsbible.jpg',
 ];
 function sermonNum() {
   return Math.floor(Math.random() * bibleImgUrl.length);
