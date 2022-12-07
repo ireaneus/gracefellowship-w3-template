@@ -2,7 +2,7 @@ import React from 'react';
 import { getBooks } from '../../sermons.js';
 
 const bibleImgUrl = [
-  '/images/pexels-tammy-johnson-breininger-4438788.jpg',
+  '/images/pexels-brett-jordan-11506026.jpg',
 ];
 function sermonNum() {
   return Math.floor(Math.random() * bibleImgUrl.length);
