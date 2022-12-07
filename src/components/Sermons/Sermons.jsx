@@ -13,7 +13,7 @@ const bibleImgUrl = [
   './images/redpenbible.jpg',
   './images/ringsbible.jpg',
 ];
-function randomNum() {
+function sermonNum() {
   return Math.floor(Math.random() * bibleImgUrl.length);
 }
 
@@ -35,7 +35,7 @@ export default function Sermons() {
                 {book.name}
               </div>
               <img
-                src={bibleImgUrl[randomNum()], console.log(bibleImgUrl)}
+                src={bibleImgUrl[sermonNum()]}
                 alt="{book.name}"
                 height="200px"
               />
