@@ -2,16 +2,7 @@ import React from 'react';
 import { getBooks } from '../../sermons.js';
 
 const bibleImgUrl = [
-  '/images/purpleflowerbible.jpg',
-  '/images/flowerbible.jpg',
-  '/images/genesis.jpg',
-  '/images/job.jpg',
-  '/images/luke.jpg',
-  '/images/oldtestament.jpg',
-  '/images/pewbible.jpg',
-  '/images/psalms.jpg',
-  '/images/redpenbible.jpg',
-  '/images/ringsbible.jpg',
+  '/images/pexels-tammy-johnson-breininger-4438788.jpg',
 ];
 function sermonNum() {
   return Math.floor(Math.random() * bibleImgUrl.length);
@@ -35,7 +26,7 @@ export default function Sermons() {
                 {book.name}
               </div>
               <img
-                src={bibleImgUrl[sermonNum()]}
+                src={bibleImgUrl}
                 alt="{book.name}"
                 height="200px"
               />
