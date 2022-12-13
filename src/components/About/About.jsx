@@ -5,7 +5,7 @@ export default function About() {
     <>
       <div className="w3-container w3-padding-32">
         <h3
-          className="w3-border-bottom w3-border-light-grey w3-padding-16"
+          className="w3-border-bottom w3-border-light-grey w3-padding-32"
           id="about"
         >
           About
@@ -19,7 +19,7 @@ export default function About() {
       </div>
 
       <div className="w3-row-padding w3-grayscale">
-        <div className="w3-col l3 m6 w3-margin-bottom">
+        <div className="w3-col m6 w3-margin-bottom">
           <img
             src="/images/churchus.jpg"
             height={211}
@@ -49,28 +49,48 @@ export default function About() {
             </button>
           </p>
         </div>
-        <div className="w3-col l3 m6 w3-margin-bottom">
-          <img src="" alt="Jane" />
-          <h3>Jane Doe</h3>
-          <p className="w3-opacity">Architect</p>
-          <p>
-            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-            sodales pellentesque elementum.
+        <div className="w3-col m6 w3-margin-bottom">
+          <img
+            src="/images/Pastor_2.jpg"
+            height={311}
+            alt="Grace Fellowship of Mountain Home Idaho - Resurrected"
+          />
+          <h3>About Pastor Jack Hurley</h3>
+          <p className="w3-opacity">
+            Pastor at Grace Fellowship from 1993-2004
+            <br />
+            Pastor Jack went to be with the Lord suddenly in February 2004.
           </p>
+
           <p>
-            <button className="w3-button w3-light-grey w3-block">
-              Contact
-            </button>
+            Following his twenty year career in the Air Force with a tour in the
+            Viet Nam as a RF-4C pilot, pastor Jack Hurley retired from Mountain
+            Home AFB.&nbsp;&nbsp;After retirement, he attended and graduated
+            from Trinity Evangelical Divinity School in Deerfield, IL with a
+            Master of Divinity degree.&nbsp;&nbsp;While at seminary, he pastored
+            a small church in a neighboring town.
           </p>
-        </div>
-        <div className="w3-col l3 m6 w3-margin-bottom">
-          <img src="" alt="Mike" />
-          <h3>Mike Ross</h3>
-          <p className="w3-opacity">Architect</p>
+
           <p>
-            Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse
-            sodales pellentesque elementum.
+            Upon graduation, he accepted a call to Grace Evangelical Church in
+            Ship Bottom, New Jersey, pastoring that church for 8 1/2
+            years.&nbsp;&nbsp;From there he moved to Phoenix, Arizona where he
+            ministered to small churches in the outlying mining towns for three
+            years.&nbsp;&nbsp;In December of 1993, Pastor Hurley returned to
+            Mountain Home and began Calvary Chapel, which is now called Grace
+            Fellowship.&nbsp;&nbsp;Starting with three couples, our church has
+            grown to its present size.
           </p>
+
+          <p>
+            Pastor Hurley believes in the return to biblical worship of our
+            sovereign God and teaching through the books of the Bible verse by
+            verse.&nbsp;&nbsp;One of his primary concerns is to see the people
+            and families of our church grow in Christian maturity and unity
+            through a living and active relationship with the Lord and with each
+            other.
+          </p>
+
           <p>
             <button className="w3-button w3-light-grey w3-block">
               Contact
